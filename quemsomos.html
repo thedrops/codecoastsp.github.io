@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CodeCoast SP - 2017</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107116503-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments)};
+	  gtag('js', new Date());
+	  gtag('config', 'UA-107116503-1');
+	</script>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">CodeCoast SP</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="quemsomos.html">Quem somos</a></li>
+          <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <div id="index-banner" class="parallax-container">
+    <div class="filter-black">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center white-text">Code Coast SP - 2017</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br>(Data e Local logo serão divulgados!)</h5>
+          </div>
+          <div class="row center">
+            <a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2" class="btn-large waves-effect waves-light cyan darken-1">Garanta sua Vaga!</a>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <h4 class="header col s12 light">CodeCoast SP</h4>
+            <div class="section">
+              <div class="col s12">
+                <div class="icon-block">
+                  <p class="center">O CodeCoast SP é um evento criado para trazer ao litoral norte paulista, o gostinho da inovação crescente nos principais polos tecnológicos. Neste hackathon não exigimos nada além de sua presença, disponibilizaremos cursos rápidos e temas diversos para que as idéias fluam como o vento e projetos saiam apenas do papel. Estas maratonas são essenciais para o desenvolvimento no mercado de trabalho, onde necessita-se uma grande velocidade para resolução de problemas. E para os estudantes, uma animada maneira de colocar seus conhecimentos em prática e preparar-se para o futuro. </p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="row col center">
+          <h4 class="header col s12 light">Organizadores<br>&nbsp;</h4>
+          <div class="section">
+            <div class="col s12 m4 offset-m2">
+              <div class="icon-block">
+                <div class="center"><img src="img/joao.jpg" class="circle" width="128" height="128"></div>
+                <h5 class="center light">João Alberto Rodrigues Rossi</h5>
+                <p class="light">.</p>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <div class="center"><img src="img/leo.jpg" class="circle" width="128" height="128"></div>
+                <h5 class="center light">Leonardo Mendes Miraglia</h5>
+                <p class="light">.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="page-footer cyan darken-3">
+      <div class="container">
+        Feito com <span class="pink-text text-darken-2">&#10084;</span> usando <a class="white-text" href="http://materializecss.com">Materialize</a> & ícones do <a class="white-text" href="www.flaticon.com">www.flaticon.com</a>
+      </div>
+    </div>
+  </footer>
+    <script>
+    function initMap() {
+      var caragua = {lat: -23.636573, lng: -45.426171};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: caragua
+      });
+      var marker = new google.maps.Marker({
+        position: caragua,
+        map: map
+      });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLyHkheqLcXEhWiEmGUfeMNTguhW6Lijo&callback=initMap">
+    </script>
+  </body>
+</html>
