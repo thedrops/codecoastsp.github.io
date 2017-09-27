@@ -10,6 +10,7 @@
   <meta name="robots" content="index, follow">
   <title>CodeCoast SP - Quem somos</title>
   <meta name="theme-color" content="#00acc1">
+  <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -79,14 +80,14 @@
           <div class="section">
             <div class="col s12 m4 offset-m2">
               <div class="icon-block">
-                <div class="center"><img src="img/joao.jpg" class="circle" width="128" height="128"></div>
+                <div class="center"><img data-src="img/joao.jpg" class="circle js-lazy-image" width="128" height="128"></div>
                 <h5 class="center light">João Alberto Rodrigues Rossi</h5>
                 <p class="light">.</p>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
-                <div class="center"><img src="img/leo.jpg" class="circle" width="128" height="128"></div>
+                <div class="center"><img data-src="img/leo.jpg" class="circle js-lazy-image" width="128" height="128"></div>
                 <h5 class="center light">Leonardo Mendes Miraglia</h5>
                 <p class="light">.</p>
               </div>
@@ -106,5 +107,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/lazyload.min.js"></script>
+  <script src="js/sv.js"></script>
   </body>
 </html>
