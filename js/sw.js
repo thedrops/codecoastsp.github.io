@@ -1,12 +1,11 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
   '/css/materialize.min.css',
   '/css/style.css',
   '/js/init.js',
   '/js/materialize.min.js',
   '/js/lazyload.min.js',
-  '/img/background1.png',
+  '/img/background1.jpg',
   '/img/breakfast.png',
   '/img/code.png',
   '/img/coding.png',
@@ -20,7 +19,7 @@ var urlsToCache = [
   '/img/orange-juice.png',
   '/img/pencil.png',
   '/img/pizza.png',
-  '/img/sketching.png',
+  '/img/sketching.png'
 ];
 
 self.addEventListener('install', function(event) {
@@ -37,7 +36,7 @@ self.addEventListener('activate', function (event) {
     event.waitUntil(
         caches.keys().then(function(keys){
             return Promise.all(keys.map(function(key, i){
-                if(key !== CACHE_VERSION){
+                if(key !== CACHE_NAME){
                     return caches.delete(keys[i]);
                 }
             }))
