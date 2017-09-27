@@ -57,9 +57,9 @@ p {
   margin: 0;
 }
 .footer-mobile{
+  text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
-  text-align: center;
 }
 #map {
   height: 400px;
