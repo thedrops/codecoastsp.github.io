@@ -7,31 +7,27 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107116503-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
-	  gtag('js', new Date());
-	  gtag('config', 'UA-107116503-1');
-	</script>
 </head>
 <body>
-  <div class="navbar-fixed">
-    <nav class="white" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" class="brand-logo">CodeCoast SP</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="quemsomos.html">Quem somos</a></li>
-          <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
-        </ul>
+  <header>
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="index.html" class="brand-logo">CodeCoastSP</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="quemsomos.html">Quem somos</a></li>
+            <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
+          </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-  </div>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <ul id="nav-mobile" class="side-nav" style="left:0px;">
+      <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
+      <li><a href="quemsomos.html">Quem somos</a></li>
+    </ul>
+  </header>
   <div id="index-banner" class="parallax-container">
     <div class="filter-black">
       <div class="section no-pad-bot">
@@ -39,7 +35,7 @@
           <br><br>
           <h1 class="header center white-text">Code Coast SP - 2017</h1>
           <div class="row center">
-            <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br>(Data e Local logo serão divulgados!)</h5>
+            <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados!)</span></h5>
           </div>
           <div class="row center">
             <a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2" class="btn-large waves-effect waves-light cyan darken-1">Garanta sua Vaga!</a>
@@ -245,7 +241,15 @@
       <br>
       <br>
   </div>
-  <footer class="page-footer cyan darken-2">
+  <footer class="hide-on-large-only ">
+    <div class="page-footer footer-mobile cyan darken-3">
+      <div class="container"><br>
+        <a href="quemsomos.html" class="btn white black-text">Saiba Mais</a><br><br>
+        Feito com <span class="pink-text text-darken-2">&#10084;</span> usando <a class="white-text" href="http://materializecss.com">Materialize</a> & ícones do <a class="white-text" href="www.flaticon.com">www.flaticon.com</a>
+      </div>
+    </div>
+  </footer>
+  <footer class="page-footer cyan darken-2 hide-on-med-and-down">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -280,7 +284,7 @@
       });
     }
   </script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script async defer

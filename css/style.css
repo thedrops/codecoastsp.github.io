@@ -53,13 +53,14 @@ p {
 .icon-block .material-icons {
   font-size: inherit;
 }
-.page-footer {
+.page-footer{
   margin: 0;
-  padding-top: 10px;
+}
+.footer-mobile{
   padding-bottom: 10px;
+  padding-top: 10px;
   text-align: center;
 }
-
 #map {
   height: 400px;
   width: 100%;
