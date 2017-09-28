@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.purple-slack{
+  background-color: #876183 !important;
+}
+
 .fade-in {
   animation-name: fadeIn;
   animation-duration: 1.3s;
