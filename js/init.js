@@ -1,4 +1,11 @@
 $(document).ready(function(){
+	var $target = $('.wrapper');
+	inView('.container').on('enter', function(){
+		$('#menu').css('color','#000').removeClass('hide');
+	});
+	inView('.parallax-container').on('enter', function(){
+		$('#menu').css('color','#FFF').addClass('hide');
+	});
   $('.button-collapse').sideNav();
   $('.parallax').parallax();
 	$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
@@ -9,7 +16,7 @@ $(document).ready(function(){
 	        event.preventDefault();
 	        $('html, body').animate({
 	          scrollTop: target.offset().top
-	        }, 700, function() {
+	        }, 400, function() {
 	          var $target = $(target);
 	          // $target.focus();
 	          if ($target.is(":focus"))return false;

@@ -23,8 +23,11 @@
   </script>
 </head>
 <body>
-<!--   <header>
-    <div class="navbar-fixed">
+	<div class="hide" id="menu">
+		<span>CodeCoastSP</span>
+	</div>
+	<header>
+    <div class="navbar-fixed hide-on-large-only">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="index.html" class="brand-logo">CodeCoastSP</a>
@@ -41,10 +44,10 @@
       <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
       <li><a href="quemsomos.html">Quem somos</a></li>
     </ul>
-  </header> -->
+  </header>
     <div id="index-banner" class="row parallax-container valign-wrapper center-align">
       <div class="row col section no-pad-bot">
-          <h1 class="header white-text">Code Coast SP - 2017</h1>
+          <h1 class="header brand-header white-text">Code Coast SP 2017</h1>
           <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados!)</span></h5>
           <a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2" class="btn-large waves-effect waves-light cyan darken-1">Garanta sua Vaga!</a>
           <br>
@@ -52,12 +55,33 @@
       </div>
       <div class="parallax"><img data-src="img/background1.jpg" class="js-lazy-image" alt="Unsplashed background img 1"></div>
     </div>
-    <div id="papel" class="container valign-wrapper center-align">
+    <div id="papel" class="container maxheight valign-wrapper center-align">
       <div class="section">
         <br>
         <div class="container">
           <div class="row center">
-            <h3 class="header col s12 light">Papéis</h3>
+            <h3 class="header col s12 light">O que é um hackathon?</h3>
+          </div>
+        </div>
+        <br>
+        <div class="row left-align">
+          <div class="col s12">
+            <div class="icon-block">
+              <div class="center"><img class="js-lazy-image" data-src="img/sketching.png"></div>
+              <h5 class="center">Idealizadores</h5>
+			        <p class="light">O CodeCoast SP é um evento criado para trazer ao litoral norte paulista, o gostinho da inovação crescente nos principais polos tecnológicos. Neste hackathon não exigimos nada além de sua presença, disponibilizaremos cursos rápidos e temas diversos para que as idéias fluam como o vento e projetos saiam apenas do papel. Estas maratonas são essenciais para o desenvolvimento no mercado de trabalho, onde necessita-se uma grande velocidade para resolução de problemas. E para os estudantes, uma animada maneira de colocar seus conhecimentos em prática e preparar-se para o futuro.</p>
+            </div>
+          </div>
+        </div>
+      <a href="#atividade" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
+      </div>
+    </div>
+    <div id="papel" class="container maxheight valign-wrapper center-align">
+      <div class="section">
+        <br>
+        <div class="container">
+          <div class="row center">
+            <h3 class="header col s12 light">Público</h3>
           </div>
         </div>
         <br>
@@ -87,7 +111,7 @@
       <a href="#atividade" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
       </div>
     </div>
-    <div id="atividade" class="container center-align valign-wrapper">
+    <div id="atividade" class="container maxheight center-align valign-wrapper">
       <div class="section">
         <br>
         <div class="container">
@@ -122,11 +146,15 @@
           <a href="#alimento" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
       </div>
     </div>
-    <div id="alimento" class="container valign-wrapper center-align">
-      <div class="row center">
-        <h3 class="header col s12 light">Alimentação e Bebidas</h3>
-      </div>
+		<div id="alimento" class="container maxheight valign-wrapper center-align">
       <div class="section">
+        <br>
+        <div class="container">
+          <div class="row center">
+            <h3 class="header col s12 light">Alimentação</h3>
+          </div>
+        </div>
+        <br>
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
@@ -150,6 +178,18 @@
             </div>
           </div>
         </div>
+      <a href="#bebida" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
+      </div>
+    </div>
+		<div id="bebida" class="container maxheight valign-wrapper center-align">
+    	<div class="section">
+        <br>
+        <div class="container">
+          <div class="row center">
+            <h3 class="header col s12 light">Bebidas</h3>
+          </div>
+        </div>
+        <br>
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
@@ -173,10 +213,59 @@
             </div>
           </div>
         </div>
+      <a href="#agenda" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
       </div>
-        <a href="#agenda" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
     </div>
-    <div id="agenda" class="container">
+		<div id="agenda" class="container maxheight hide-on-med-and-down valign-wrapper center-align">
+    	<div class="section">
+        <br>
+        <div class="container">
+          <div class="row center">
+            <h3 class="header col s12 light">Agenda</h3>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block card">
+              <div class="card-content">
+  							<span class="card-title grey-text text-darken-4">Primeira Parte <br><small>13:00 - 17:59</small></span>
+								<ul class="browser-default left-align">
+									<li>Shark Tank (Apresentação de Ideias)</li>
+									<li>Formação de Grupos</li>
+									<li>Brainstorming</li>
+								</ul>
+            	</div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block card">
+							<div class="card-content">
+  							<span class="card-title grey-text text-darken-4">Segunda Parte <br><small>18:00 - 21:59</small></span>
+								<ul class="browser-default left-align">
+									<li>Cursos</li>
+									<li>Prototipação</li>
+									<li>Hora da Pizza!</li>
+								</ul>
+            	</div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block card">
+              <div class="card-content">
+								<span class="card-title grey-text text-darken-4">Quarta Parte <br><small>08:00 - 12:59</small></span>
+								<ul class="browser-default left-align">
+									<li>Apresentação dos Projetos</li>
+									<li>Encerramento</li>
+								</ul>
+            	</div>
+            </div>
+          </div>
+        </div>
+      <a href="#agenda" class="black-text"><i class="material-icons arrow small">arrow_downward</i></a>
+      </div>
+    </div>
+		<div class="container hide-on-large-only">
       <div class="row center">
         <h4 class="header col s12 light">Agenda</h4>
       </div>
@@ -237,7 +326,7 @@
       </div>
   	</div>
     </div>
-    <div class="container">
+		<div class="container">
       <div class="row center">
         <h4 class="header col s12 light">Regras dos Desafios</h4>
       </div>
@@ -351,7 +440,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/lazyload.min.js"></script>
+  <script src="js/lazyload.min.js"></script>  
+  <script src="js/in-view.min.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLyHkheqLcXEhWiEmGUfeMNTguhW6Lijo&callback=initMap">
     </script>
