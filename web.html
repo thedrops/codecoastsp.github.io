@@ -2,25 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Akali by Vitrineed</title>
+    <title>Curso Web</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
     <link href="http://fonts.googleapis.com/css?family=Montserrat">
     <link href='css/akali-grid.css' rel='stylesheet' type='text/css'>
     <link href='css/web.css' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" />
+    <!-- <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" /> -->
   </head>
   <body>
 
     <div class="all centered big primary color row">
       <div class="fluid container">
-        <h1 class="big">Curso web</h1>
-        <h3 class="no margin normal weight padding sides">HTML & CSS.</h3>
+        <h1 class="big">CodeCoast SP</h1>
+        <h3 class="no margin normal weight padding sides">Curso Web - HTML & CSS.</h3>
       </div>
     </div>
 
     <div class="centered row with margin bottom">
+      <div class="twelve wide column with padding">
+        <h1>Sobre o curso</h1>
+        <p>Este curso introduz a parte básica de HTML e CSS para programação web, recomendado para pessoas que estão começando agora na área e precisam de alguma referência para dar início aos estudos.</p>
+      </div>
       <div class="twelve wide column with padding">
         <h1>O que é HTML?</h1>
         <p>HTML (abreviação para a expressão HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. HTML5 é a quinta versão da linguagem HTML, que adicionou mudanças relacionadas a semântica e acessibilidade.</p>
@@ -30,10 +33,10 @@
         <h1>O que é CSS?</h1>
         <p>Cascading Style Sheets (CSS) é um simples mecanismo para adicionar estilo (cores, fontes, espaçamento etc) a um documento HTML. Por facilidade em vez de se colocar a formatação dentro do documento, o CSS cria um link (ligação) para uma página que contém os estilos. Quando quiser alterar a aparência do site basta portanto modificar o arquivo.</p>
       </div>
-      <div class="twelve wide column with padding">
+ <div class="twelve wide column with padding">
         <h1>Estrutura básica</h1>
-      </div>
-      <div class="seven wide on desktop
+        </div>
+        <div class="seven wide on desktop
                   ten wide column">
           <div class="tab buttons">
             <div class="active button" data-tab="1">HTML</div>
@@ -47,78 +50,53 @@
           </div>
       </div>
     </div>
-
-<!--     <div class="centered row with margin bottom">
-      <div class="twelve wide column with padding">
-        <h1>Responsive</h1>
-        <p>Akali includes a responsive flexbox grid that appropriately scales up to 12 columns as the device or viewport size increases.</p>
-        <p>You can set columns wides on each device if necessary.</p>
+    <!-- <div class="row centered container only text">
+      <div class="four wide column">
+        <p><b>&#60;html&#62;</b></p>
+        <p>Tag que demarca o início e fim do código</p>
       </div>
-      <div class="seven wide on desktop
-                  ten wide column">
-          <div class="tab buttons">
-            <div class="active button" data-tab="1">HTML</div>
-            <div class="button" data-tab="2">SCSS</div>
-          </div>
-          <div class="tab-content active tab-1">
-            <script src="https://gist.github.com/guivr/5256ee0f5209120c6e14b18cb22c960d.js"></script>
-          </div>
-          <div class="tab-content tab-2">
-            <script src="https://gist.github.com/guivr/0e7771963134fd07f1592910708017bd.js"></script>
-          </div>
+      <div class="four wide column">
+        <p><b>&#60;head&#62;</b></p>
+        <p>Tag que demarca o cabeçalho da página, arquivos de css e metadados(como autor, descrição)</p>
       </div>
-    </div> -->
-
-<!--     <div class="all centered row with margin bottom and margin top">
-      <div class="twelve wide on mobile
-                  six wide on tablet
-                  five wide on desktop
-                  column with padding">
-        <h1>Magical</h1>
-        <p>You'll love Akali, because it comes with unbelievable handy utilities.</p>
-        <ol>
-          <li>Easily fill columns spaces with 'fill column', no math :-P</li>
-          <li>Easily center grids with 'centered grid'</li>
-          <li>Create columns that will take full width on mobile no matter what with 'stackable grid'</li>
-          <li>Determine which device the column should appear by using 'desktop only', etc</li>
-          <li>Set offset for each device 'offset two on tablet' or set global offset 'offset two column'</li>
-          <li>Reverse a grid order with 'reversed grid', if grid is stackable, 'stackable reversed grid'</li>
-          <li>Create containers or full width containers with 'container' or 'fluid container'</li>
-        </ol>
+      <div class="four wide column">
+        <p><b>&#60;meta&#62;</b></p>
+        <p>Tag que descreve detalhes da página como palavras chave, autor, tipo de texto, tamanho de janela(importante para páginas responsivas).</p>
       </div>
-      <div class="six wide on desktop
-                  ten wide column">
-          <div class="tab buttons">
-            <div class="active button" data-tab="1">HTML</div>
-            <div class="button" data-tab="2">SCSS (More features)</div>
-          </div>
-          <div class="tab-content active tab-1">
-            <script src="https://gist.github.com/guivr/b761893ecfcfe976f04415d3fa36199c.js"></script>
-          </div>
-          <div class="tab-content tab-2">
-            <script src="https://gist.github.com/guivr/ffabaf3d3311b05175f0be5af3339e5f.js"></script>
-          </div>
+      <div class="four wide column">
+        <p><b>&#60;title&#62;</b></p>
+        <p>Tag que determina o título da página.</p>
+      </div>        
+      <div class="four wide column">
+        <p><b>&#60;link&#62;</b></p>
+        <p>Cria um chamada para o arquivo css externo.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;body&#62;</b></p>
+        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;div&#62;</b></p>
+        <p>Associe como uma divisória, facilita o uso do css, determinando blocos para edição.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;p&#62;</b></p>
+        <p>Utiliza-se para determinar parágrafos, textos longos ficam organizados e podem ter quebras de linha com a tag <b>&#60;br&#62;</b>.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;span&#62;</b></p>
+        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;img&#62;</b></p>
+        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
+      </div>
+      <div class="four wide column">
+        <p><b>&#60;a&#62;</b></p>
+        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
       </div>
     </div> -->
-
-<!--     <div class="centered row with margin bottom and margin top">
-      <div class="twelve wide column with padding">
-        <h1>Documentation</h1>
-        <p><a href="docs.html">Go to Akali's Documentation</a></p>
-      </div>
-    </div>
-    <div class="centered row with margin bottom and margin top">
-      <div class="twelve wide column with padding">
-        <h1>Playground</h1>
-        <p>How about try yourself Akali Grid right now?</p>
-        <p>Practice makes perfect.</p>
-      </div>
-      <div class="ten wide column">
-        <iframe height='600' scrolling='no' src='https://codepen.io/guivr/embed/YWEbGG/?height=600&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/guivr/pen/YWEbGG/'>Experimental Flexbox Grid</a> by Guilherme Rizzo (<a href='http://codepen.io/guivr'>@guivr</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
-      </div>
-    </div> -->
-
-    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script>
       $('.tab .button').on('click', function(){
         $(this).parent().find('.button').removeClass('active');
