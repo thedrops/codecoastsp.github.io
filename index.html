@@ -9,7 +9,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="robots" content="index, follow">
   <title>CodeCoast SP - 2017</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#00acc1">
+  <meta name="msapplication-TileColor" content="#00acc1">
+  <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
   <!-- <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" /> -->
   <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -28,7 +44,13 @@
     <div class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-          <a id="logo-container" href="index.html" class="brand-logo">CodeCoastSP</a>
+          <div class="valign-wrapper" style="display: inline">
+          <img src="img/logo.png" width="50px" height="50px" class="hide-on-med-and-down logo">
+          <a href="index.html" class="brand-logo hide-on-med-and-down">CodeCoastSP</a>
+          <a href="index.html" class="brand-logo hide-on-large-only">
+            <img src="img/logo.png" width="50px" height="50px" class="responsive-img logo">
+          </a>
+          </div>
           <ul class="right hide-on-med-and-down">
             <li><a href="quemsomos.html">Quem somos</a></li>
             <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
@@ -56,8 +78,6 @@
             <a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2" class="btn-large waves-effect waves-light cyan darken-1">Garanta sua Vaga!</a>
           </div>
           <br><br>
-
-
         </div>
       </div>
     <div class="parallax"><img data-src="img/background1.jpg" class="js-lazy-image" alt="Unsplashed background img 1"></div>
@@ -67,7 +87,22 @@
     <div class="section">
       <br>
       <div class="row center">
-        <h3 class="header col s12 light">Papéis</h3>
+        <h3 class="header col s12 light">O que é um hackathon?</h3>
+      </div>
+      <div class="row">
+            <div class="center"><img class="js-lazy-image responsive-img" data-src="img/hackathon.png"></div>
+        <div class="col s12 l8 offset-l2">
+          <div class="icon-block">
+            <p class=" center">O Hackathon é um evento onde desenvolvedores, designers e empreendedores se juntam para encontrarem soluções para um desafio proposto, o evento acontece como uma maratona, onde equipes dedicam horas consecutivas para desenvolver a melhor solução dentro do prazo proposto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row center">
+        <h4 class="header col s12 light">Papéis</h4>
       </div>
       <br>
       <div class="row">
@@ -75,20 +110,16 @@
           <div class="icon-block">
             <div class="center"><img class="js-lazy-image" data-src="img/sketching.png"></div>
             <h5 class="center">Idealizadores</h5>
-
 			  <p class="light">Tem uma ideia e deseja transformá-la em um produto viável <b>mesmo sem saber programar</b>, aproveite o evento e junte-se a desenvolvedores para construir um projeto.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <div class="center"><img class="js-lazy-image"  data-src="img/coding.png"></div>
             <h5 class="center">Desenvolvedores</h5>
-
             <p class="light">Está afim de um desafio de desenvolvimento mas está sem ideias? aproveite o evento e junte-se a algum idealizador e aceite o desafio de codificar em apenas 24 horas.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <div class="center"><img class="js-lazy-image" data-src="img/cutting.png"></div>
@@ -99,23 +130,8 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
-    <div class="row center">
-      <h4 class="header col s12 light">O que é um hackathon?</h4>
-    </div>
-    <div class="section">
-      <div class="row">
-            <div class="center"><img class="js-lazy-image" data-src="img/hackathon.png"></div>
-        <div class="col s12 l8 offset-l2">
-          <div class="icon-block">
-            <p class="light center">O Hackathon é um evento onde desenvolvedores, designers e empreendedores se juntam para encontrarem soluções para um desafio proposto, o evento acontece como uma maratona, onde equipes dedicam horas consecutivas para desenvolver a melhor solução dentro do prazo proposto.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <br>
+  <br>
   <div class="container">
     <div class="row center">
       <h4 class="header col s12 light">Atividades</h4>
@@ -146,6 +162,8 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
   <div class="container">
     <div class="row center">
       <h4 class="header col s12 light">Alimentação & Bebidas</h4>
@@ -201,67 +219,71 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
   <div class="container">
     <div class="row center">
       <h4 class="header col s12 light">Agenda</h4>
     </div>
     <div class="section">
-			<div class="container">
-    <div class="timeline">
-      <div class="timeline-event">
-        <div class="card timeline-content">
-          <div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Primeira Parte <br><small>13:00 - 17:59</small></span>
-            <ul class="browser-default" style="padding-left: 10px;">
-            	<li>Shark Tank (Apresentação de Ideias)</li>
-            	<li>Formação de Grupos</li>
-            	<li>Brainstorming</li>
-            </ul>
+		  <div class="container">
+        <div class="timeline">
+          <div class="timeline-event">
+            <div class="card timeline-content">
+              <div class="card-content">
+  						  <span class="card-title activator grey-text text-darken-4">Primeira Parte <br><small>13:00 - 17:59</small></span>
+                <ul class="browser-default" style="padding-left: 10px;">
+                	<li>Shark Tank (Apresentação de Ideias)</li>
+                	<li>Formação de Grupos</li>
+                	<li>Brainstorming</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-badge blue white-text"><i class="material-icons">group_add</i></div>
+          </div>
+          <div class="timeline-event">
+           <div class="card timeline-content">
+              <div class="card-content">
+  							<span class="card-title activator grey-text text-darken-4">Segunda Parte <br><small>18:00 - 21:59</small></span>
+                <ul class="browser-default" style="padding-left: 10px;">
+                	<li>Cursos</li>
+                	<li>Prototipação</li>
+                	<li>Hora da Pizza!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-badge red white-text"><i class="material-icons">edit</i></div>
+          </div>
+          <div class="timeline-event">
+            <div class="card timeline-content">
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Terceira Parte <br><small>22:00 - 07:59</small></span>
+                <ul class="browser-default" style="padding-left: 10px;">
+                  <li>Desenvolvimento do Projeto</li>
+                  <li>Café da Manhã</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-badge grey darken-4 white-text"><i class="material-icons">settings</i></div>
+          </div>
+          <div class="timeline-event">
+            <div class="card timeline-content">
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Quarta Parte <br><small>08:00 - 12:59</small></span>
+                <ul class="browser-default" style="padding-left: 10px;">
+                	<li>Apresentação dos Projetos</li>
+                	<li>Encerramento</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-badge green white-text"><i class="material-icons">check</i></div>
           </div>
         </div>
-        <div class="timeline-badge blue white-text"><i class="material-icons">group_add</i></div>
-      </div>
-      <div class="timeline-event">
-        <div class="card timeline-content">
-          <div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Segunda Parte <br><small>18:00 - 21:59</small></span>
-            <ul class="browser-default" style="padding-left: 10px;">
-            	<li>Cursos</li>
-            	<li>Prototipação</li>
-            	<li>Hora da Pizza!</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-badge red white-text"><i class="material-icons">edit</i></div>
-      </div>
-      <div class="timeline-event">
-        <div class="card timeline-content">
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Terceira Parte <br><small>22:00 - 07:59</small></span>
-            <ul class="browser-default" style="padding-left: 10px;">
-            	<li>Desenvolvimento do Projeto</li>
-            	<li>Café da Manhã</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-badge grey darken-4 white-text"><i class="material-icons">settings</i></div>
-      </div>
-      <div class="timeline-event">
-        <div class="card timeline-content">
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Quarta Parte <br><small>08:00 - 12:59</small></span>
-            <ul class="browser-default" style="padding-left: 10px;">
-            	<li>Apresentação dos Projetos</li>
-            	<li>Encerramento</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-badge green white-text"><i class="material-icons">check</i></div>
       </div>
     </div>
-    </div>
-	</div>
   </div>
+  <br>
+  <br>
   <div class="container">
     <div class="row center">
       <h4 class="header col s12 light">Regras dos Desafios</h4>

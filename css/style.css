@@ -8,6 +8,9 @@
 body{
   /*background-color: #f5f5f5;*/
 }
+.logo{
+  margin-top: 5px;
+}
 .purple-slack{
   background-color: #876183 !important;
 }
@@ -48,7 +51,7 @@ p {
   color: rgba(255,255,255,.9);
 	height: auto;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
 }
   .parallax-container .section {
     width: 100%;
