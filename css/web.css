@@ -13,16 +13,25 @@ a {
   color: #383838;
 }
 
-h1.big {
-  font-size: 70px;
-  margin: 0px;
+@media only screen and (min-width: 993px){
+  .container {
+      width: 70%;
+  }
+}
+@media only screen and (min-width: 601px){
+  .container {
+      width: 85%;
+  }
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
 }
 
 p,
 li {
   color: #666;
-  margin: 10px auto;
-  max-width: 30rem;
 }
 
 ol,
@@ -61,17 +70,7 @@ iframe[src*="codepen"],
   margin-bottom: 0 !important;
 }
 
-.powered {
-  opacity: .77;
-  right: 15px;
-  top: 0;
-  position: absolute;
-}
 
-  .powered p,
-  .powered a {
-    color: #000;
-  }
 
 .no.margin {
   margin: 0;

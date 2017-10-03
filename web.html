@@ -1,101 +1,81 @@
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Curso Web</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat">
-    <link href='css/akali-grid.css' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="hackathon no litoral norte paulista, maratona de aplicativo">
+  <meta name="keywords" content="hackathon, litoral norte, CodeCoastSP, CodeCoast">
+  <meta name="author" content="Leonardo Mendes Miraglia">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="index, follow">
+  <title>CodeCoast - Curso Web</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+  <!-- <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" /> -->
+  <link rel="manifest" href="/manifest.json">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href='css/web.css' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" /> -->
-  </head>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107116503-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'UA-107116503-1');
+  </script>
+</head>
   <body>
-
-    <div class="all centered big primary color row">
-      <div class="fluid container">
+    <div class="big primary color center row">
+      <div class="container">
         <h1 class="big">CodeCoast SP</h1>
-        <h3 class="no margin normal weight padding sides">Curso Web - HTML & CSS.</h3>
+        <h3 class="">Curso Web - HTML & CSS.</h3>
       </div>
     </div>
-
-    <div class="centered row with margin bottom">
-      <div class="twelve wide column with padding">
-        <h1>Sobre o curso</h1>
+    <div class="container">
+      <div>
+        <h2>Sobre o curso</h2>
         <p>Este curso introduz a parte básica de HTML e CSS para programação web, recomendado para pessoas que estão começando agora na área e precisam de alguma referência para dar início aos estudos.</p>
       </div>
-      <div class="twelve wide column with padding">
-        <h1>O que é HTML?</h1>
+      <div>
+        <h2>O que é HTML?</h2>
         <p>HTML (abreviação para a expressão HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. HTML5 é a quinta versão da linguagem HTML, que adicionou mudanças relacionadas a semântica e acessibilidade.</p>
       </div>
-
-      <div class="twelve wide column with padding">
-        <h1>O que é CSS?</h1>
+      <div>
+        <h2>O que é CSS?</h2>
         <p>Cascading Style Sheets (CSS) é um simples mecanismo para adicionar estilo (cores, fontes, espaçamento etc) a um documento HTML. Por facilidade em vez de se colocar a formatação dentro do documento, o CSS cria um link (ligação) para uma página que contém os estilos. Quando quiser alterar a aparência do site basta portanto modificar o arquivo.</p>
       </div>
- <div class="twelve wide column with padding">
+      <div>
         <h1>Estrutura básica</h1>
+      </div>
+      <div>
+        <div class="tab buttons">
+          <div class="active button" data-tab="1">HTML</div>
+          <div class="button" data-tab="2">CSS</div>
         </div>
-        <div class="seven wide on desktop
-                  ten wide column">
-          <div class="tab buttons">
-            <div class="active button" data-tab="1">HTML</div>
-            <div class="button" data-tab="2">CSS</div>
-          </div>
-          <div class="tab-content active tab-1">
-            <script src="https://gist.github.com/leomendesm/802c77ce3dc68049009808c3bb25bcc4.js"></script>
-          </div>
-          <div class="tab-content tab-2">
-            <script src="https://gist.github.com/leomendesm/6899517ccfd69d718cbce778c280bf02.js"></script>
-          </div>
+        <div class="tab-content active tab-1">
+          <script src="https://gist.github.com/leomendesm/802c77ce3dc68049009808c3bb25bcc4.js"></script>
+        </div>
+        <div class="tab-content tab-2">
+          <script src="https://gist.github.com/leomendesm/6899517ccfd69d718cbce778c280bf02.js"></script>
+        </div>
       </div>
     </div>
-    <!-- <div class="row centered container only text">
-      <div class="four wide column">
-        <p><b>&#60;html&#62;</b></p>
-        <p>Tag que demarca o início e fim do código</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;head&#62;</b></p>
-        <p>Tag que demarca o cabeçalho da página, arquivos de css e metadados(como autor, descrição)</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;meta&#62;</b></p>
-        <p>Tag que descreve detalhes da página como palavras chave, autor, tipo de texto, tamanho de janela(importante para páginas responsivas).</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;title&#62;</b></p>
-        <p>Tag que determina o título da página.</p>
-      </div>        
-      <div class="four wide column">
-        <p><b>&#60;link&#62;</b></p>
-        <p>Cria um chamada para o arquivo css externo.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;body&#62;</b></p>
-        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;div&#62;</b></p>
-        <p>Associe como uma divisória, facilita o uso do css, determinando blocos para edição.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;p&#62;</b></p>
-        <p>Utiliza-se para determinar parágrafos, textos longos ficam organizados e podem ter quebras de linha com a tag <b>&#60;br&#62;</b>.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;span&#62;</b></p>
-        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;img&#62;</b></p>
-        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
-      </div>
-      <div class="four wide column">
-        <p><b>&#60;a&#62;</b></p>
-        <p>Determina o corpo do site, tudo que precisa ser exibido precisa ficar dentro dessa tag.</p>
-      </div>
-    </div> -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script>
       $('.tab .button').on('click', function(){

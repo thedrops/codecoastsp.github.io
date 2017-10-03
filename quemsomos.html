@@ -8,26 +8,49 @@
   <meta name="author" content="Leonardo Mendes Miraglia">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="robots" content="index, follow">
-  <title>CodeCoast SP - Quem somos</title>
-  <meta name="theme-color" content="#00acc1">
+  <title>CodeCoast SP - 2017</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+  <!-- <meta property="og:image" content="http://i.imgur.com/iT6VuhY.png" /> -->
   <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107116503-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
-	  gtag('js', new Date());
-	  gtag('config', 'UA-107116503-1');
-	</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107116503-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'UA-107116503-1');
+  </script>
 </head>
 <body>
   <header>
     <div class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-          <a id="logo-container" href="index.html" class="brand-logo">CodeCoastSP</a>
+          <div class="valign-wrapper" style="display: inline">
+          <img src="img/logo.png" width="50px" height="50px" class="hide-on-med-and-down logo">
+          <a href="index.html" class="brand-logo hide-on-med-and-down">CodeCoastSP</a>
+          <a href="index.html" class="brand-logo hide-on-large-only">
+            <img src="img/logo.png" width="50px" height="50px" class="responsive-img logo">
+          </a>
+          </div>
           <ul class="right hide-on-med-and-down">
             <li><a href="quemsomos.html">Quem somos</a></li>
             <li><a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2">Garanta sua vaga</a></li>
@@ -55,10 +78,9 @@
             <a href="https://goo.gl/forms/p1Mt6fsrmpjip7xY2" class="btn-large waves-effect waves-light cyan darken-1">Garanta sua Vaga!</a>
           </div>
           <br><br>
-
         </div>
       </div>
-    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img data-src="img/background1.jpg" class="js-lazy-image" alt="Unsplashed background img 1"></div>
     </div>
   </div>
   <br>
@@ -75,20 +97,21 @@
             </div>
           </div>  
         </div>
+        <br>
         <div class="row col center">
           <h4 class="header col s12 light">Organizadores<br>&nbsp;</h4>
           <div class="section">
             <div class="col s12 m4 offset-m2">
               <div class="icon-block">
                 <div class="center"><img data-src="img/joao.jpg" class="circle js-lazy-image" width="128" height="128"></div>
-                <h5 class="center light">João Alberto Rodrigues Rossi</h5>
+                <p class="center light">João Alberto Rodrigues Rossi</p>
                 <p class="light">.</p>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
                 <div class="center"><img data-src="img/leo.jpg" class="circle js-lazy-image" width="128" height="128"></div>
-                <h5 class="center light">Leonardo Mendes Miraglia</h5>
+                <p class="center light">Leonardo Mendes Miraglia</h5>
                 <p class="light">.</p>
               </div>
             </div>
