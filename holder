@@ -1,0 +1,74 @@
+  <!-- <div class="container">
+    <div class="section">
+      <div class="row center">
+        <h4 class="header col s12 light">Alimentação & Bebidas</h4>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/pizza.png"></div>
+            <h5 class="center">Pizza</h5>
+            <p class="light">Carro chefe da casa, sendo a principal refeição da noite, tendo uma pausa geral para todos comerem.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/fries.png"></div>
+            <h5 class="center">Batata Frita</h5>
+            <p class="light">Não há nada melhor do que uma batata frita durante um brainstorming entre os colegas da equipe.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/breakfast.png"></div>
+            <h5 class="center">Café da Manhã</h5>
+            <p class="light">Após uma noite cansativa, o café da manhã é essencial para a reta final do projeto!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/coke.png"></div>
+            <h5 class="center">Refrigerante/Energético</h5>
+            <p class="light">Açúcar move nossos músculos! energético e refrigerante não faltarão!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/orange-juice.png"></div>
+            <h5 class="center">Suco</h5>
+            <p class="light">Para quem não bebe refrigerante, suco e água irão suprir suas necessidades!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <div class="center"><img class="js-lazy-image" data-src="img/coffee.png"></div>
+            <h5 class="center">Café</h5>
+            <p class="light">A principal arma de todo programador,não irá faltar cafeína para nós!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br> -->
+
+<!--             
+<h5>Regras para projetos DIY</h5>
+  <ul class="browser-default">
+    <li>Todo projeto deverá ter base em código aberto;</li>
+    <li>Qualquer linguagem de programação poderá ser utilizada desde que seja <i>open-source</i>;</li>
+    <li>Todo projeto terá de ser mantido em um repositório na ferramenta GitHub e possuir atualizações frequentes para acompanhamento;</li>
+    <li>A utilização de micro-controladores como arduino e raspberry PI é permitida;</li>
+    <li>O projeto deverá ser apresentado ao vivo no final do período estipulado;</li>
+  </ul> -->
+
+<!--         
+<div class="col s12 m4">
+  <div class="icon-block">
+    <div class="center"><img class="js-lazy-image" data-src="img/cutting.png"></div>
+    <h5 class="center">Criadores</h5>
+    <p class="light">Possui uma ideia totalmente Rocket Science para um gadget mas precisa de ajuda? Participe do evento e tire essa ideia maluca do papel!</p>
+  </div>
+</div> -->
