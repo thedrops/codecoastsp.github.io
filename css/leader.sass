@@ -27,6 +27,12 @@ body
 .leaderboard
 	border-radius: 10px
 	width: 90%
+	@media only screen and (min-width: 500px) and (max-width: 900px)
+		width: 60% !important
+		margin: 2.5% 20%
+	@media only screen and (min-width: 900px)
+		width: 40% !important
+		margin: 2.5% 30%
 	height: auto
 	margin: 5%
 	background: $white
@@ -45,6 +51,17 @@ body
 			position: absolute
 			bottom: 80px
 			right: 80
+			@media only screen and (min-width: 500px) and (max-width: 900px)
+				bottom: 5em
+				right: 7.5em
+			@media only screen and (min-width: 901px) 
+				right: 0
+				left: 0
+				position: relative
+				margin-top: 60px
+				margin-bottom: -100px
+				height: 45px
+				width: 45px
 			text-align: center
 			-webkit-box-shadow: inset 3px 0px 8px 1px rgb(229, 150, 20)
 			-moz-box-shadow: inset 3px 0px 8px 1px rgb(229, 150, 20)
@@ -55,15 +72,19 @@ body
 				right: 0
 				top: 10%
 				color: #FFE06F
-				font-size: 2em
+				font-size: 2em				
 		.logo
 			width: 15%
 			height: auto
+			@media only screen and (min-width: 901px) 
+				width: 10%
 		.profile-pic
 			width: 40%
 			height: auto
 			border-radius: 50%
 			border: 2px $cyan solid
+			@media only screen and (min-width: 901px) 
+				width: 20%
 		.info
 			text-transform: uppercase
 			width: 60%
