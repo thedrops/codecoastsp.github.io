@@ -65,7 +65,7 @@
             <br><br>
             <h1 class="header center white-text">Code Coast SP - 2017</h1>
             <div class="row center">
-              <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados!)</span></h5>
+              <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados)</span></h5>
             </div>
             <div class="row center">
               <a class="typeform-share btn-large waves-effect waves-light cyan darken-2" href="https://leomendesm.typeform.com/to/xHDJTx" data-mode="popup" target="_blank">Garanta Sua Vaga!</a> 
@@ -85,7 +85,7 @@
         <div class="row">
           <div class="col s12 l8 offset-l2">
             <div class="icon-block">
-              <p class="center">O Hackathon é um evento onde desenvolvedores, designers e empreendedores se juntam para encontrarem soluções para um desafio proposto, o evento acontece como uma maratona, onde equipes dedicam horas consecutivas para desenvolver a melhor solução dentro do prazo proposto.</p>
+              <p class="center">O Hackathon é um evento onde desenvolvedores, designers e empreendedores se unem para encontrarem soluções para um desafio proposto, o evento acontece como uma maratona, onde equipes dedicam horas consecutivas para desenvolver a melhor solução dentro do prazo proposto.</p>
             </div>
           </div>
         </div>
@@ -283,10 +283,8 @@
     if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
-        // Registration was successful
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }).catch(function(err) {
-        // registration failed :(
         console.log('ServiceWorker registration failed: ', err);
       });
     });
