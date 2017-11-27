@@ -65,7 +65,7 @@
             <br><br>
             <h1 class="header center white-text">Code Coast SP - 2017</h1>
             <div class="row center">
-              <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados!)</span></h5>
+              <h5 class="header col s12 light">O hackathon para galera com o pé na areia e a cabeça no horizonte<br><span class="hide-on-med-and-down">(Data e Local logo serão divulgados)</span></h5>
             </div>
             <div class="row center">
               <a class="typeform-share btn-large waves-effect waves-light cyan darken-2" href="https://leomendesm.typeform.com/to/xHDJTx" data-mode="popup" target="_blank">Garanta Sua Vaga!</a> 
@@ -102,7 +102,7 @@
             <div class="icon-block">
               <div class="center"><img class="js-lazy-image" data-src="img/sketching.png"></div>
               <h5 class="center">Idealizadores</h5>
-  		        <p class="light">Tem uma ideia e deseja transformá-la em um produto viável <b>mesmo sem saber programar</b>, aproveite o evento e junte-se a desenvolvedores para construir um projeto.</p>
+  		        <p class="light">Tem uma ideia e deseja transformá-la em um produto viável <b>mesmo sem saber programar</b>, aproveite o evento e junte-se a desenvolvedores para construir um aplicativo.</p>
             </div>
             <br class="hide-on-med-and-up"> 
             <br class="hide-on-med-and-up"> 
@@ -283,10 +283,8 @@
     if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
-        // Registration was successful
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }).catch(function(err) {
-        // registration failed :(
         console.log('ServiceWorker registration failed: ', err);
       });
     });
@@ -296,8 +294,9 @@
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/lazyload.min.js"></script>
-  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+  <script src="js/sv.js"></script>
   <script src="https://embed.small.chat/T7A9HR7K5G7ET63LQM.js" async></script>
+  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLyHkheqLcXEhWiEmGUfeMNTguhW6Lijo&callback=initMap">
     </script>
